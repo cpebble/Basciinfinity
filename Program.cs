@@ -8,7 +8,7 @@ namespace Basciinfinity
     static class Program
     {
 
-        static string filePath;
+        static string filePath = "spez.bmp";
         static Dictionary<string,string> colors = new Dictionary<string,string>();
 
         [STAThread]
